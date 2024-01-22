@@ -1,0 +1,30 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.Main h1,
+.Main p,
+.Main button,
+.Main img {
+  margin-bottom: 25px; 
+}
+
+.Main h1 {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.Main span {
+    color: rgb(186, 186, 49);
+    background-color: rgb(27, 24, 24);
+    padding: 5px;
+}
+
+.Main p {
+    color: rgb(158, 157, 157);
+    font-weight: bolder;
+}
