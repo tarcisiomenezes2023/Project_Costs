@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import styles from './ProjectForm.module.css';
+import Input from '../form/Input';
 
 function ProjectForm() {
   return (
-    <form>
-        <div>
-        <input type='text' placeholder='Insert the name of the project' />
-        </div>
+    <form className={styles.form}>
+        <Input type="text" text="Name of the project" name="name"
+        placeholder="Insert the name of the project"/>
         <div>
         <input type='number' placeholder='Insert the total budget' />
         </div>
