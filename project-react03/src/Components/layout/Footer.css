@@ -1,4 +1,6 @@
 footer {
+    bottom: 0;
+    width: 100%;
     background: rgb(60, 59, 59);
     height: 150px;
     display: flex;
