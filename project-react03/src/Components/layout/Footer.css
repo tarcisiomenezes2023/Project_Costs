@@ -10,3 +10,17 @@ footer img {
     height: 100px;
     width: 100px;
 }
+
+@media screen and (max-width: 818px) {
+     footer img {
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    footer img {
+        height: 50px;
+        width: 50px;
+    }
+}
