@@ -3,28 +3,42 @@
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
-
-}
-
-.Main h1,
-.Main p,
-.Main button,
-.Main img {
-  margin-bottom: 25px; 
-}
-
-.Main h1 {
+  }
+  
+  .Main h1,
+  .Main p,
+  .Main a,
+  .Main img {
+    margin-bottom: 25px;
+  }
+  
+  .Main h1 {
     font-size: 3em;
     font-weight: bolder;
-}
-
-.Main span {
+  }
+  
+  .Main span {
     color: rgb(186, 186, 49);
     background-color: rgb(27, 24, 24);
     padding: 5px;
-}
-
-.Main p {
+  }
+  
+  .Main p {
     color: rgb(158, 157, 157);
     font-weight: bolder;
-}
+  }
+  
+  .Main .Button {
+    color: white;
+    background-color: rgb(36, 36, 36);
+    padding: 5px;
+    border-radius: 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block; 
+  }
+  
+  .Main .Button:hover {
+    color: rgb(166, 166, 54);
+    transform: scale(1.1);
+  }

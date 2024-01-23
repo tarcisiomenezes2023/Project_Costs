@@ -12,7 +12,7 @@ function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/contact">Contact</Link>
         <Link to="/company">Company</Link>
-        <Link to="/newproject">New Project</Link>
+        <Link to="/Projects">Projects</Link>
       </nav>
     </div>
   );

@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import ProjectForm from '../Project/ProjectForm';
+import styles from './NewProjects.module.css';
 
 function NewProject() {
   return (
-    <div>
-        <h1>NewProject</h1>
+    <div className={styles.newproject_container}>
+    <h1>Create a new project</h1>
+      <p>Create your project and add to your services!</p>
+      <ProjectForm />
     </div>
   )
 }
