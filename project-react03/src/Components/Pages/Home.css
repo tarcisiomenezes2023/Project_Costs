@@ -42,3 +42,55 @@
     color: rgb(166, 166, 54);
     transform: scale(1.1);
   }
+
+  @media screen and (max-width: 818px) {
+    .Main h1{
+        font-size: 2.3em;
+        font-weight: bolder;
+    }
+    .Main p {
+        font-size: 0.8em;
+    }
+    .Main img {
+        height: 400px;
+        width: 400px;
+    }
+    .Main .Button {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+  .Main h1{
+      font-size: 1.8em;
+      font-weight: bolder;
+  }
+  .Main p {
+      font-size: 0.7em;
+  }
+  .Main img {
+      height: 300px;
+      width: 300px;
+  }
+  .Main .Button {
+      font-size: 0.5em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .Main h1{
+      font-size: 1.3em;
+      font-weight: bolder;
+  }
+  .Main p {
+      font-size: 0.5em;
+  }
+  .Main img {
+      height: 200px;
+      width: 200px;
+  }
+  .Main .Button {
+      font-size: 0.4em;
+  }
+}
+

@@ -8,7 +8,7 @@ function Home() {
       <h1>
         Welcome to <span>Costs</span>
       </h1>
-      <p>Start managing your projects now!</p>
+      <p>Start managing your projects right now!</p>
       <Link to="/newproject" className="Button">
         <h2>Start new project</h2>
       </Link>
