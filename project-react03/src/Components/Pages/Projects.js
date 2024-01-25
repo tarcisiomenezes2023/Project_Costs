@@ -4,18 +4,19 @@ import { useLocation } from 'react-router-dom';
 
 function Projects() {
 
-  const location = useLocation()
-  let message = ''
+  const location = useLocation();
+  let message = '';
+
   if(location.state) {
-    message = location.state.message
+    message = location.state.message;
   } 
 
   return (
     <div>
       <h1>My Projects</h1>
-      {message && <Message type="success" msg ={Message} />}
+      {message && <Message type="success" msg ={message} />}
     </div>
-  )
+  );
 }
 
 export default Projects
