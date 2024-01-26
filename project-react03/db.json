@@ -1,34 +1,12 @@
 {
   "projects": [
     {
-      "id": "2aa9",
+      "id": "380f",
       "name": "Tarcisio Menezes",
-      "budget": "1000",
+      "budget": "14",
       "category": {
         "id": "1",
         "name": "Development"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "1b84",
-      "name": "Joao das Neves",
-      "budget": "25",
-      "category": {
-        "id": "4",
-        "name": "Infraestructure"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "3fde",
-      "name": "Jon Snow",
-      "budget": "200",
-      "category": {
-        "id": "2",
-        "name": "Design"
       },
       "cost": 0,
       "services": []
