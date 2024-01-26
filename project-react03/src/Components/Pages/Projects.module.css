@@ -22,3 +22,18 @@
     color: rgb(166, 166, 54);
     transform: scale(1.1);
 }
+
+@media screen and (max-width: 600px) {
+    .project_container {
+    }
+    .title_container h1 {
+        font-size: 1.5em;
+    }
+    .ButtonProject {
+        font-size: 0.8em;
+    }
+    .title_container h2 {
+        font-size: 1em;
+    }
+    
+}

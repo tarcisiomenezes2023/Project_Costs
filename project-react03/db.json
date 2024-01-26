@@ -1,12 +1,34 @@
 {
   "projects": [
     {
-      "id": "380f",
+      "id": "e466",
       "name": "Tarcisio Menezes",
-      "budget": "14",
+      "budget": "5000",
       "category": {
         "id": "1",
         "name": "Development"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "f37e",
+      "name": "Jazmin",
+      "budget": "20000",
+      "category": {
+        "id": "2",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "91be",
+      "name": "Matheus",
+      "budget": "6000",
+      "category": {
+        "id": "3",
+        "name": "Planning"
       },
       "cost": 0,
       "services": []

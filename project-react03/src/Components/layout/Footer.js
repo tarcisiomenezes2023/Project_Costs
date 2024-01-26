@@ -8,7 +8,7 @@ function Footer() {
         <img src="/github-logo.png" alt="" />
       </a>
       <a href='https://www.instagram.com/tarcisio.menezes19/' target='blank'>
-        <img src="instagram.png" alt="" />
+        <img src="/instagram.png" alt="" />
       </a>
       <a href='https://www.linkedin.com/in/tarc%C3%ADsio-menezes-03b8a0233/' target='blank'>
         <img src='/LinkedIn.png' alt='' />
